@@ -1,0 +1,17 @@
+{
+  "name": "fizzy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwind": "npx tailwind build -i styles.input.css -o styles.output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefix": "^1.0.1",
+    "postfix": "^0.0.1",
+    "tailwindcss": "^2.2.15"
+  }
+}

@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    overflow-x: hidden;
+}
+
+.image{
+    background: url('https://allinonetrickz.com/wp-content/uploads/2019/05/Girls-Trending-Profile-Pic-2019.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.social-icon{
+    z-index: -1;
+    display: none;
+}
+
+.image:hover .social-icon{
+    z-index: 3;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(245, 121, 245, 0.747);
+}
+
+.newsletter{
+    background: url('https://wallpaperaccess.com/full/112100.jpg');
+    background-size: cover;
+    width: 100%;
+    background-position: center center;
+}
+
+#map {
+  height: 100%;
+}
+
+.zippy-background{
+    background: url('https://cdnb.artstation.com/p/assets/images/images/006/272/147/large/jack-oldham-mountain-galaxy-background-1.jpg?1497300224');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
